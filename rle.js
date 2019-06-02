@@ -10,7 +10,7 @@ let s4 = 'ABB'
 
 function rle(str) {
     if (str.length < 0 && new RegExp(/^[A-Z]*$/g).test(str)) {
-        throw Error('invalid');;
+        throw Error('invalid');
     }
     if (str.length === 1) {
         return str;
