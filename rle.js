@@ -36,7 +36,6 @@ function rle(str) {
             res += `${item.latter}`
         }
     })
-    console.log(res);
     return res;
 }
 rle(s);
