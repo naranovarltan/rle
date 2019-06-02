@@ -3,10 +3,6 @@
 //Нужно написать функцию RLE, которая на выходе даст строку вида:
 //A4B3C2XYZD4E3F3A6B28
 let s = 'AAAABBBCCXYZDDDDEEEFFFAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBB';
-let s1 = 'AA'
-let s2 = 'A'
-let s3 = 'AB'
-let s4 = 'ABB'
 
 function rle(str) {
     if (str.length < 0 && new RegExp(/^[A-Z]*$/g).test(str)) {
@@ -39,7 +35,3 @@ function rle(str) {
     return res;
 }
 rle(s);
-rle(s1);
-rle(s2);
-rle(s3);
-rle(s4);
